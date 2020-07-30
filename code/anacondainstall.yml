@@ -1,0 +1,15 @@
+name: arnavnetprog
+channels:
+    - conda-forge
+    - defaults
+dependencies:
+    - python = 3.8.*
+    - pip
+    - pytest
+    - twisted
+    - requests
+    - pywin32
+    - attrs
+    - pytest-cov
+    - pip:
+      - klein
